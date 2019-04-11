@@ -1,0 +1,12 @@
+@media all and (min-width: 420px) {
+    form {
+        padding: 60px 0;
+        margin: 0 auto;
+        max-width: 420px;
+    }
+}
+
+.danger {
+    background-color: rgba(193, 125, 114, 0.46);
+    color: #721c24;
+}
