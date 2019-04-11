@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Nav, Navbar, NavItem } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import "./stylesheets/App.css";
-import Routes from "./Routes";
+import Routes from "./routes/Routes";
 
 class App extends Component {
     render() {
