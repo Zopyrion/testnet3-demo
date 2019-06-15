@@ -44,14 +44,7 @@ export default class Send extends Component {
 
         const that = this;
         fetch(url, {
-            method: 'POST',
-            body: JSON.stringify({
-                "from_private": "b7f9d6a54f33a646077723bc3ce0b61f374e4d0e7619439b4e8a4823ec43f104",
-                "to_address": "mhQD1cHFwhMYas8sWtktno8t24EssiZiAh",
-                "value_satoshis": 7000,
-                "wait_guarantee": true,
-                "token": CONSTANT.TOKEN}
-            )
+            method: 'GET'
         }).then(function(response) {
             response.json().then(function(data) {
                 that.setState({response: response.status, data: data})
