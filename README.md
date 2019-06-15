@@ -14,8 +14,8 @@ npm start
 Go to http://localhost:3000.
 
 ### Testing the App
-* Create Adress creates a new address that can be used later.
+* Create Address makes a new address that can be used later.
 * Fund lists some faucets to fund the address.
-* Check balance shows confirmed balance of given address.
+* Check balance shows confirmed transactions of given address.
 * Send transaction makes a micro payment. Enter private key generated from create, and any destination address.
-* View history shows the inputs and outputs of an address
+* View history graphs the input and output transactions of an address.
